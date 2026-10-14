@@ -1,0 +1,84 @@
+{
+  "id": "/",
+  "name": "Mughal AI — Roman Urdu & English Assistant",
+  "short_name": "Mughal AI",
+  "description": "Multimodal AI assistant fluent in Roman Urdu and English with Gemini voice input, image analysis, and Play Store PWA support.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "theme_color": "#0B0F17",
+  "background_color": "#0B0F17",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities", "education"],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mughal AI Chat & Voice Assistant on Mobile"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Mughal AI Multimodal Workspace on Desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Chat (Naya Sawal)",
+      "short_name": "New Chat",
+      "description": "Start a new Roman Urdu or English conversation",
+      "url": "/?action=new",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Analyze Photo",
+      "short_name": "Photo AI",
+      "description": "Upload a photo and ask a question with voice",
+      "url": "/?action=photo",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

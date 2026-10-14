@@ -1,0 +1,6 @@
+{
+  "name": "Mughal AI",
+  "description": "Multimodal AI assistant fluent in Roman Urdu and English with Gemini voice input, image analysis, and Play Store PWA support.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

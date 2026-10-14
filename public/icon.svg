@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17" />
+      <stop offset="100%" stop-color="#131B2E" />
+    </linearGradient>
+    <linearGradient id="emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="#1E293B" stroke-width="4" />
+  <!-- Geometric Mughal Star Arch & AI Monogram -->
+  <path d="M256 96 C320 96 368 148 368 216 L368 376 C368 393.67 353.67 408 336 408 L176 408 C158.33 408 144 393.67 144 376 L144 216 C144 148 192 96 256 96 Z" fill="none" stroke="url(#emerald)" stroke-width="20" stroke-linejoin="round" />
+  <path d="M188 344 L188 212 L256 280 L324 212 L324 344" fill="none" stroke="#F8FAFC" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="256" cy="160" r="14" fill="#34D399" />
+</svg>
